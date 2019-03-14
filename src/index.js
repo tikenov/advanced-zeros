@@ -24,5 +24,6 @@ module.exports = function getZerosCount(number, base) {
     temp = Math.floor(temp / count);
     ans = temp <= ans ? temp : ans;
   }
+
   return ans;
 };
